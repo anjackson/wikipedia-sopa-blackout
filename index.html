@@ -1,3 +1,7 @@
 <script src="https://cdn.jsdelivr.net/npm/replaywebpage@2.1.4/ui.js"></script>
 
-<replay-web-page source="./collections/wikipedia_sopa_blackout_2012/archive/sopa-wikipedia-homepage.warc.gz" url="http://en.wikipedia.org/wiki/Main_Page" config='{"fuzzy":[]}'></replay-web-page>
+<replay-web-page 
+        config='{"fuzzy": [["(https:\/\/filmingrevolution.supdigital.org/).*", "$1"]]}'
+        source="./collections/wikipedia_sopa_blackout_2012/archive/sopa-wikipedia-homepage.warc.gz"
+        url="http://en.wikipedia.org/wiki/Main_Page">
+</replay-web-page>
