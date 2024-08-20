@@ -17,3 +17,13 @@ This repository contains a collection of web archiving test files. There will be
   have waived all copyright and related or neighboring rights to
   <span property="dct:title">Web Archive Test Corpus</span>.
 </p>
+
+
+install ca cert in Firefox
+
+network.stricttransportsecurity.preloadlist false
+
+clear all site data
+
+Then it'll stick to http and actually play back
+
