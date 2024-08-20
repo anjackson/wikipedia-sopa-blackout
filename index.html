@@ -1,7 +1,11 @@
 <script src="https://cdn.jsdelivr.net/npm/replaywebpage@2.1.4/ui.js"></script>
 
 <replay-web-page 
-        config='{"fuzzy": [["(http:\/\/bits.wikimedia.org/.*)", "$1"]]}'
+        deepLink
+        updateFavicons
+        embed="replay-with-info"
+        config='{"fuzzy": [["(http:\/\/bits.wikimedia.org/.*)", "arg!$1"]]}'
         source="./collections/wikipedia_sopa_blackout_2012/archive/sopa-wikipedia-homepage.warc.gz"
+        ts="20120118143132"
         url="http://en.wikipedia.org/wiki/Main_Page">
 </replay-web-page>
